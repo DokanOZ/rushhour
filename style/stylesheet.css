@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.car {
+    height: 100%;
+    width: 100%;
+}
+
+.tile {
+    height: 7vh;
+    width: 7vh;
+    background-color: white;
+    border: 1px solid navy;
+}
+
+.exit {
+    border-right: 10px solid red;
+}
+
+.controls {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.counter {
+    padding-right: 4vh;
+}
+
+.header {
+    padding-right: 8vh;
+}
+
+
